@@ -1,7 +1,20 @@
+package base;
+
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import base.exceptions.AtaqueValidationException;
+import base.exceptions.DefensaValidationException;
+import base.exceptions.SumaAtributosValidationException;
 
 public class Destructor extends VehiculoGuerra {
+	
+	private static final Logger logger = LoggerFactory.getLogger(Destructor.class);
 
-	public Destructor(String nombre, int ataque, int defensa) {
+	public Destructor(String nombre, int ataque, int defensa)
+			throws AtaqueValidationException, DefensaValidationException, SumaAtributosValidationException {
 		super(nombre, ataque, defensa);
 		this.setTipo("Destructor");
 	}
@@ -51,9 +64,36 @@ public class Destructor extends VehiculoGuerra {
 
 			this.setPuntosVida(nuevosPuntosVida);
 
-			System.out.println("\n\t\tLe quedan " + nuevosPuntosVida + ".\n");
+			System.out.println("\n\t\tEl total de puntos de vida es de " + nuevosPuntosVida + ".\n");
 		} else {
 			System.out.println("\n\t\tEl ataque ha sido infructuoso.\n");
 		}
 	}
-}
+
+	@Override
+	public void embarcarGuerrero(Guerrero guerrero) {
+		logger.debug("Entrando en el método embarcarGuerrero.");
+		getGuerrerosEmbarcados().add(guerrero);
+	}
+	
+	public void embarcarGuerrero(TripulacionDestructor guerrero) {
+		embarcarGuerrero(guerrero);
+	}
+	
+	@Override
+	public void embarcarGuerreros(Guerrero[] guerreros) {
+		for (Guerrero guerrero : guerreros) {
+			getGuerrerosEmbarcados().add(guerrero);	
+		}
+	}
+	
+	public void embarcarGuerreros(TripulacionDestructor[] guerreros) {
+		embarcarGuerreros(guerreros);
+	}
+	
+	public void embarcarGuerreros(List<TripulacionDestructor> guerreros) {
+		for (Guerrero guerrero : guerreros) {
+			getGuerrerosEmbarcados().add(guerrero);	
+		}
+	}
+ }

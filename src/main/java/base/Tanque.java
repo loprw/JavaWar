@@ -1,9 +1,16 @@
+package base;
 
+import java.util.List;
+
+import base.exceptions.AtaqueValidationException;
+import base.exceptions.DefensaValidationException;
+import base.exceptions.SumaAtributosValidationException;
 
 public class Tanque extends VehiculoGuerra {
 
-	public Tanque(String nombre, int ataque, int defensa) {
-		super(nombre, ataque, defensa);
+	public Tanque(String nombre, int ataque, int defensa)
+			throws AtaqueValidationException, DefensaValidationException, SumaAtributosValidationException {
+		super(nombre, ataque, defensa) ;
 		this.setTipo("Tanque");
 	}
 
@@ -54,9 +61,35 @@ public class Tanque extends VehiculoGuerra {
 
 			this.setPuntosVida(nuevosPuntosVida);
 
-			System.out.println("\n\t\tLe quedan " + nuevosPuntosVida + ".\n");
+			System.out.println("\n\t\tEl total de puntos de vida es de " + nuevosPuntosVida + ".\n");
 		} else {
 			System.out.println("\n\t\tEl ataque ha sido infructuoso.\n");
+		}
+	}
+
+	@Override
+	public void embarcarGuerrero(Guerrero guerrero) {
+		getGuerrerosEmbarcados().add(guerrero);
+	}
+	
+	public void embarcarGuerrero(TripulacionTanque guerrero) {
+		embarcarGuerrero(guerrero);
+	}
+	
+	@Override
+	public void embarcarGuerreros(Guerrero[] guerreros) {
+		for (Guerrero guerrero : guerreros) {
+			getGuerrerosEmbarcados().add(guerrero);	
+		}
+	}
+	
+	public void embarcarGuerreros(TripulacionTanque[] guerreros) {
+		embarcarGuerreros(guerreros);
+	}
+	
+	public void embarcarGuerreros(List<TripulacionTanque> guerreros) {
+		for (Guerrero guerrero : guerreros) {
+			getGuerrerosEmbarcados().add(guerrero);	
 		}
 	}
 }
