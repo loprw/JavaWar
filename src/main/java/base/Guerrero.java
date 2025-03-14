@@ -62,15 +62,15 @@ public abstract class Guerrero {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Guerrero: \n\tNombre = ");
+		builder.append("\t\tGuerrero: \n\t\t\tNombre = ");
 		builder.append(nombre);
-		builder.append("\n\tTipo = ");
+		builder.append("\n\t\t\tTipo = ");
 		builder.append(tipo);
-		builder.append("\n\tFuerza = ");
+		builder.append("\n\t\t\tFuerza = ");
 		builder.append(fuerza);
-		builder.append("\n\tResistencia = ");
+		builder.append("\n\t\t\tResistencia = ");
 		builder.append(resistencia);
-		builder.append(".");
+		builder.append("\n");
 		return builder.toString();
 	}
 

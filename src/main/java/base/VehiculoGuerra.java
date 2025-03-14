@@ -25,7 +25,7 @@ public abstract class VehiculoGuerra implements Tripulable {
 			throws AtaqueValidationException, DefensaValidationException, SumaAtributosValidationException {
 
 		this.nombre = nombre;
-		this.puntosVida = 50;
+		this.puntosVida = 10;
 		this.ataque = 5;
 		this.ataque = 5;
 		validarAtaque(ataque);
@@ -75,7 +75,7 @@ public abstract class VehiculoGuerra implements Tripulable {
 		builder.append(ataque);
 		builder.append("\n\tDefensa = ");
 		builder.append(defensa);
-		builder.append("\n\tGuerreros Embarcados = ");
+		builder.append("\n\tGuerreros Embarcados : \n");
 		builder.append(guerrerosEmbarcados);
 		builder.append(".");
 		return builder.toString();

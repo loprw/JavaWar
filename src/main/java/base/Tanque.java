@@ -43,7 +43,7 @@ public class Tanque extends VehiculoGuerra {
 			}
 		}
 
-		totalAtaque = (int) (this.getAtaque() * (Math.random() * 1.1) + sumaGuerreros * (Math.random() * 1.1 / 20));
+		totalAtaque = (int) (this.getAtaque() * (Math.random() * 1.1) + sumaGuerreros * (Math.random() * 1.1 / 2));
 
 		System.out.println("\n\t\tEl tanque ataca con un valor total de " + totalAtaque + ".");
 
@@ -73,7 +73,8 @@ public class Tanque extends VehiculoGuerra {
 	}
 	
 	public void embarcarGuerrero(TripulacionTanque guerrero) {
-		embarcarGuerrero(guerrero);
+		Guerrero guerreroGuerrero = (Guerrero) guerrero;
+		embarcarGuerrero(guerreroGuerrero);
 	}
 	
 	@Override
