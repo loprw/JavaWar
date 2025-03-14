@@ -77,13 +77,15 @@ public class Destructor extends VehiculoGuerra {
 	}
 	
 	public void embarcarGuerrero(TripulacionDestructor guerrero) {
-		embarcarGuerrero(guerrero);
+		Guerrero nuevoGuerrero = (Guerrero) guerrero;
+		embarcarGuerrero(nuevoGuerrero);
 	}
 	
 	@Override
 	public void embarcarGuerreros(Guerrero[] guerreros) {
 		for (Guerrero guerrero : guerreros) {
-			getGuerrerosEmbarcados().add(guerrero);	
+			Guerrero nuevoGuerrero = (Guerrero) guerrero;
+			getGuerrerosEmbarcados().add(nuevoGuerrero);	
 		}
 	}
 	
@@ -93,7 +95,8 @@ public class Destructor extends VehiculoGuerra {
 	
 	public void embarcarGuerreros(List<TripulacionDestructor> guerreros) {
 		for (Guerrero guerrero : guerreros) {
-			getGuerrerosEmbarcados().add(guerrero);	
+			Guerrero nuevoGuerrero = (Guerrero) guerrero;
+			getGuerrerosEmbarcados().add(nuevoGuerrero);	
 		}
 	}
  }

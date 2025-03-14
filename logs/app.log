@@ -3103,3 +3103,57 @@
 2025-02-28 20:50:37 [main] INFO  base.utilities.Utilities - 
 			El vehículo Tiger ha sido destruido.
 
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - Vamos a crear el Vehículo 1:
+2025-03-03 20:42:38 [main] DEBUG base.VehiculoGuerra - Validando que el valor de Ataque esté entre 0 y 10.
+2025-03-03 20:42:38 [main] DEBUG base.VehiculoGuerra - Validando que el valor de Defensa esté entre 0 y 10.
+2025-03-03 20:42:38 [main] DEBUG base.VehiculoGuerra - Validando que los valores de Ataque y Defensa no sumen más de 10.
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - Vamos a crear el Vehículo 2:
+2025-03-03 20:42:38 [main] DEBUG base.VehiculoGuerra - Validando que el valor de Ataque esté entre 0 y 10.
+2025-03-03 20:42:38 [main] DEBUG base.VehiculoGuerra - Validando que el valor de Defensa esté entre 0 y 10.
+2025-03-03 20:42:38 [main] DEBUG base.VehiculoGuerra - Validando que los valores de Ataque y Defensa no sumen más de 10.
+2025-03-03 20:42:38 [main] DEBUG base.utilities.Utilities - Entrando en try para crear guerreros.
+2025-03-03 20:42:38 [main] DEBUG base.utilities.Utilities - 0
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - Empieza la guerra:
+
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 1 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 2 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 3 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 4 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 5 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 6 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 7 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 8 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 9 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 10 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 11 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 12 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 13 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 14 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 15 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 16 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 17 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 18 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 19 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 20 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 21 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 22 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 23 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 24 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 25 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 26 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 27 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 28 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 29 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 30 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 31 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 32 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 33 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 34 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 35 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 36 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 37 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 38 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 	Empieza el turno 39 del enfrentamiento:
+2025-03-03 20:42:38 [main] INFO  base.utilities.Utilities - 
+			El vehículo Tiger ha sido destruido.
+
