@@ -129,8 +129,8 @@ public class Utilities {
 		do {
 
 			System.out.println("\t\t¡¡¡BIENVENIDO A JAVA WAR!!!");
-			System.out
-					.println("\nEscoge entre estas opciones.\n\n\t1. Partida rápida.\n\t2. Partida rápida con guerreros."
+			System.out.println(
+					"\nEscoge entre estas opciones.\n\n\t1. Partida rápida.\n\t2. Partida rápida con guerreros."
 							+ "\n\t3. Enfrentamiento con el campeón de los desarrolladores.\n\n\t0 Salir.\n\n");
 			opcion = Utilities.pideDatoNumerico("Indica el número de la opción que desees:");
 
@@ -143,7 +143,7 @@ public class Utilities {
 				VehiculoGuerra[] vehiculos = crearVehiculosDefecto();
 				try {
 					logger.debug("Entrando en try para crear guerreros.");
-					crearGuerrerosDefecto(vehiculos);
+					embarcarGuerrerosDefecto(vehiculos);
 				} catch (TamanyArrayIncorrectoException taie) {
 					logger.debug("Saliendo del try para crear guerreros por error");
 					logger.error(taie.getMessage());
@@ -154,13 +154,55 @@ public class Utilities {
 				int valor2 = vehiculos[1].getGuerrerosEmbarcados().size();
 				String cadena2 = String.valueOf(valor2);
 				logger.debug("Tamaño del listado de Guerreros de vehiculo2: " + cadena2);
-				System.out.println(vehiculos[0]);
-				System.out.println(vehiculos[1]);
 				enfrentamiento(vehiculos);
 			}
 			case 3 -> {
-				VehiculoGuerra vehiculo1;
+				VehiculoGuerra vehiculoDesarrolladores;
+				int valor = (int) (Math.random() * 2);
+				if (valor == 0) {
+					vehiculoDesarrolladores = crearVehiculo1();
+				} else {
+					vehiculoDesarrolladores = crearVehiculo2();
+				}
 				
+				embarcarGuerrerosDefecto(vehiculoDesarrolladores);
+
+				System.out.println("Ahora vas a crear tu propio vehículo.\n\n\t"
+						+ "1. Quiero crear un Destructor (no puede tener más Defensa que Ataque)\n\n\t"
+						+ "2. Quiero crear un Tanque (no puede tener más Ataque que Defensa");
+				int opcionJugador = pideDatoNumerico("Elige el número de la opción que desees:");
+
+				VehiculoGuerra vehiculoJugador;
+				if (opcionJugador == 1) {
+					logger.info("La creación de un Destructor tiene las siguientes normas"
+							+ "\n\t1. El valor de Ataque debe estar entre 1 y 10."
+							+ "\n\t2. El valor de Defensa debe estar entre 1 y 10."
+							+ "\n\t3. El valor de Defensa no puede ser mayor que el valor de Ataque."
+							+ "\n\t4. La suma del valor de Ataque y del valor de Defensa no puede ser superior a 10");
+					String nombre = pideDatoCadena("Indica el nombre del Destructor");
+					int ataque = pideDatoNumerico("Indica el valor de ataque que deseas para el Destructor");
+					int defensa = pideDatoNumerico("Indica el valor de defensa que deseas para el Destructor");
+					try {
+						vehiculoJugador = new Tanque(nombre, ataque, defensa);
+					} catch (AtaqueValidationException ave) {
+						ave.printStackTrace();
+						logger.error(ave.getMessage());
+					} catch (DefensaValidationException dve) {
+						dve.printStackTrace();
+						logger.error(dve.getMessage());
+					} catch (SumaAtributosValidationException save) {
+						save.printStackTrace();
+						logger.error(save.getMessage());
+					}
+					
+					
+					//enfrentamiento(vehiculoDesarrolladores, vehiculoJugador);
+
+				} else if (opcionJugador == 2) {
+
+				} else {
+					logger.info("Has escogido una opción incorrecta.");
+				}
 
 			}
 			case 0 -> System.out.println("¡Adiós!");
@@ -182,7 +224,7 @@ public class Utilities {
 	}
 
 	// controlar que el array sea de tamaño 2
-	public static void crearGuerrerosDefecto(VehiculoGuerra[] vehiculos) throws TamanyArrayIncorrectoException {
+	public static void embarcarGuerrerosDefecto(VehiculoGuerra[] vehiculos) throws TamanyArrayIncorrectoException {
 
 		logger.debug("Entrada en método crearGuerrerosDefecto");
 
@@ -220,6 +262,43 @@ public class Utilities {
 				}
 				valor = vehiculos[i].getGuerrerosEmbarcados().size();
 			} while (valor < capacidad);
+		}
+	}
+	
+	public static void embarcarGuerrerosDefecto(VehiculoGuerra vehiculo) {
+		int capacidad = 10;
+		Destructor destructor;
+		Tanque tanque;
+		if (vehiculo instanceof Destructor) {
+			destructor = (Destructor) vehiculo;
+			int valor = 0;
+			int contador = 1;
+			do {
+				int numAleatorio = ((int) (Math.random() * 2));
+				if (numAleatorio == 0) {
+					String nombre = "N".concat(String.valueOf(contador++));
+					destructor.embarcarGuerrero(new Piloto(nombre));
+				} else {
+					String nombre = "N".concat(String.valueOf(contador++));
+					destructor.embarcarGuerrero(new ArtilleroNaval(nombre));
+				}
+				valor = vehiculo.getGuerrerosEmbarcados().size();
+			} while (valor < capacidad);
+		} else if (vehiculo instanceof Tanque) {
+			tanque = (Tanque) vehiculo;
+			int valor = 0;
+			int contador = 1;
+			do {
+				int numAleatorio = ((int) (Math.random() * 2));
+				if (numAleatorio == 0) {
+					String nombre = "N".concat(String.valueOf(contador++));
+					tanque.embarcarGuerrero(new Conductor(nombre));
+				} else {
+					String nombre = "N".concat(String.valueOf(contador++));
+					tanque.embarcarGuerrero(new ArtilleroTerrestre(nombre));
+				}
+				valor = vehiculo.getGuerrerosEmbarcados().size();
+			} while (valor < contador);
 		}
 	}
 }
