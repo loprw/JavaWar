@@ -5,13 +5,13 @@ import java.util.Scanner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import base.ArtilleroNaval;
-import base.ArtilleroTerrestre;
-import base.Conductor;
-import base.Destructor;
-import base.Piloto;
-import base.Tanque;
-import base.VehiculoGuerra;
+import base.bins.guerrero.ArtilleroNaval;
+import base.bins.guerrero.ArtilleroTerrestre;
+import base.bins.guerrero.Conductor;
+import base.bins.guerrero.Piloto;
+import base.bins.vehiculoguerra.Destructor;
+import base.bins.vehiculoguerra.Tanque;
+import base.bins.vehiculoguerra.VehiculoGuerra;
 import base.exceptions.AtaqueValidationException;
 import base.exceptions.DefensaValidationException;
 import base.exceptions.SumaAtributosValidationException;
@@ -130,8 +130,8 @@ public class Utilities {
 
 			System.out.println("\t\t¡¡¡BIENVENIDO A JAVA WAR!!!");
 			System.out
-					.println("\nEscoge entre estas opciones.\n\t1. Partida rápida.\n\t2. Partida rápida con guerreros."
-							+ "\n\t3. Partida personalizada completa.\n\n\t0 Salir.\n\n");
+					.println("\nEscoge entre estas opciones.\n\n\t1. Partida rápida.\n\t2. Partida rápida con guerreros."
+							+ "\n\t3. Enfrentamiento con el campeón de los desarrolladores.\n\n\t0 Salir.\n\n");
 			opcion = Utilities.pideDatoNumerico("Indica el número de la opción que desees:");
 
 			switch (opcion) {
@@ -159,6 +159,8 @@ public class Utilities {
 				enfrentamiento(vehiculos);
 			}
 			case 3 -> {
+				VehiculoGuerra vehiculo1;
+				
 
 			}
 			case 0 -> System.out.println("¡Adiós!");

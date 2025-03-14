@@ -1,10 +1,12 @@
-package base;
+package base.bins.vehiculoguerra;
 
 import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import base.bins.guerrero.Guerrero;
+import base.bins.guerrero.TripulacionDestructor;
 import base.exceptions.AtaqueValidationException;
 import base.exceptions.DefensaValidationException;
 import base.exceptions.SumaAtributosValidationException;

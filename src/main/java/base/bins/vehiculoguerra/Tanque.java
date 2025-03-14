@@ -1,7 +1,9 @@
-package base;
+package base.bins.vehiculoguerra;
 
 import java.util.List;
 
+import base.bins.guerrero.Guerrero;
+import base.bins.guerrero.TripulacionTanque;
 import base.exceptions.AtaqueValidationException;
 import base.exceptions.DefensaValidationException;
 import base.exceptions.SumaAtributosValidationException;

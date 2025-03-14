@@ -1,4 +1,4 @@
-package base;
+package base.bins.vehiculoguerra;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,6 +6,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import base.bins.guerrero.Guerrero;
 import base.exceptions.AtaqueValidationException;
 import base.exceptions.DefensaValidationException;
 import base.exceptions.SumaAtributosValidationException;
@@ -37,6 +38,10 @@ public abstract class VehiculoGuerra implements Tripulable {
 	
 	public VehiculoGuerra(String nombre) {
 		this.nombre = nombre;
+		this.puntosVida = 10;
+		this.ataque = 5;
+		this.defensa = 5;
+		this.guerrerosEmbarcados = new ArrayList<Guerrero>();
 	}
 
 	public String getNombre() {
