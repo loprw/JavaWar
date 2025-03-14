@@ -1,17 +1,21 @@
-package base;
+package base.bins.guerrero;
 
 import base.exceptions.FuerzaValidationException;
 import base.exceptions.ResistenciaValidationException;
 import base.exceptions.SumaAtributosValidationException;
 
-public class TripulacionTanque extends Guerrero {
+public class ArtilleroNaval extends TripulacionDestructor {
 
-	public TripulacionTanque(String nombre, int fuerza, int resistencia)
+	public ArtilleroNaval(String nombre, int fuerza, int resistencia)
 			throws FuerzaValidationException, ResistenciaValidationException, SumaAtributosValidationException {
 		super(nombre, fuerza, resistencia);
+		setTipo("Artillero Naval");
 	}
-	
-	public TripulacionTanque(String nombre) {
+
+	public ArtilleroNaval(String nombre) {
 		super(nombre);
+		setTipo("Artillero Naval");
+		setFuerza(6);
+		setResistencia(4);
 	}
 }

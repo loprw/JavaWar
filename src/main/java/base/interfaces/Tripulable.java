@@ -2,7 +2,7 @@ package base.interfaces;
 
 import java.util.List;
 
-import base.Guerrero;
+import base.bins.guerrero.Guerrero;
 
 public interface Tripulable extends Atacar, Defender {
 
