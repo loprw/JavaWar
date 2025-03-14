@@ -27,7 +27,6 @@ public abstract class VehiculoGuerra implements Tripulable {
 		this.nombre = nombre;
 		this.puntosVida = 10;
 		this.ataque = 5;
-		this.ataque = 5;
 		validarAtaque(ataque);
 		this.defensa = 5;
 		validarDefensa(defensa);

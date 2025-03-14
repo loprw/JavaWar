@@ -5321,3 +5321,21 @@
 2025-03-14 17:02:47 [main] INFO  base.utilities.Utilities - 
 			El vehículo Rocinante ha sido destruido.
 
+2025-03-14 17:11:58 [main] INFO  base.utilities.Utilities - Vamos a crear el Vehículo 1:
+2025-03-14 17:11:58 [main] DEBUG base.VehiculoGuerra - Validando que el valor de Ataque esté entre 0 y 10.
+2025-03-14 17:11:58 [main] DEBUG base.VehiculoGuerra - Validando que el valor de Defensa esté entre 0 y 10.
+2025-03-14 17:11:58 [main] DEBUG base.VehiculoGuerra - Validando que los valores de Ataque y Defensa no sumen más de 10.
+2025-03-14 17:11:58 [main] INFO  base.utilities.Utilities - Vamos a crear el Vehículo 2:
+2025-03-14 17:11:58 [main] DEBUG base.VehiculoGuerra - Validando que el valor de Ataque esté entre 0 y 10.
+2025-03-14 17:11:58 [main] DEBUG base.VehiculoGuerra - Validando que el valor de Defensa esté entre 0 y 10.
+2025-03-14 17:11:58 [main] DEBUG base.VehiculoGuerra - Validando que los valores de Ataque y Defensa no sumen más de 10.
+2025-03-14 17:11:58 [main] INFO  base.utilities.Utilities - Empieza la guerra:
+
+2025-03-14 17:11:58 [main] INFO  base.utilities.Utilities - 	Empieza el turno 1 del enfrentamiento:
+2025-03-14 17:11:58 [main] INFO  base.utilities.Utilities - 	Empieza el turno 2 del enfrentamiento:
+2025-03-14 17:11:58 [main] INFO  base.utilities.Utilities - 	Empieza el turno 3 del enfrentamiento:
+2025-03-14 17:11:58 [main] INFO  base.utilities.Utilities - 	Empieza el turno 4 del enfrentamiento:
+2025-03-14 17:11:58 [main] INFO  base.utilities.Utilities - 	Empieza el turno 5 del enfrentamiento:
+2025-03-14 17:11:58 [main] INFO  base.utilities.Utilities - 
+			El vehículo Rocinante ha sido destruido.
+
