@@ -5394,3 +5394,516 @@
 				
 			El vehículo Tiger ha sido destruido.
 
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+				Vamos a crear el VehÃ­culo 1:
+2025-04-07 17:29:36 [main] DEBUG b.bins.vehiculoguerra.VehiculoGuerra -
+				Validando que el valor de Ataque estÃ© entre 0 y 10.
+2025-04-07 17:29:36 [main] DEBUG b.bins.vehiculoguerra.VehiculoGuerra -
+				Validando que el valor de Defensa estÃ© entre 0 y 10.
+2025-04-07 17:29:36 [main] DEBUG b.bins.vehiculoguerra.VehiculoGuerra -
+				Validando que los valores de Ataque y Defensa no sumen mÃ¡s de 10.
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+				Vamos a crear el VehÃ­culo 2:
+2025-04-07 17:29:36 [main] DEBUG b.bins.vehiculoguerra.VehiculoGuerra -
+				Validando que el valor de Ataque estÃ© entre 0 y 10.
+2025-04-07 17:29:36 [main] DEBUG b.bins.vehiculoguerra.VehiculoGuerra -
+				Validando que el valor de Defensa estÃ© entre 0 y 10.
+2025-04-07 17:29:36 [main] DEBUG b.bins.vehiculoguerra.VehiculoGuerra -
+				Validando que los valores de Ataque y Defensa no sumen mÃ¡s de 10.
+2025-04-07 17:29:36 [main] DEBUG base.utilities.Utilities -
+				Entrando en try para crear guerreros.
+2025-04-07 17:29:36 [main] DEBUG base.utilities.Utilities -
+				Entrada en mÃ©todo crearGuerrerosDefecto
+2025-04-07 17:29:36 [main] DEBUG base.bins.vehiculoguerra.Destructor -
+				Entrando en el mÃ©todo embarcarGuerrero.
+2025-04-07 17:29:36 [main] DEBUG base.bins.vehiculoguerra.Destructor -
+				Entrando en el mÃ©todo embarcarGuerrero.
+2025-04-07 17:29:36 [main] DEBUG base.bins.vehiculoguerra.Destructor -
+				Entrando en el mÃ©todo embarcarGuerrero.
+2025-04-07 17:29:36 [main] DEBUG base.bins.vehiculoguerra.Destructor -
+				Entrando en el mÃ©todo embarcarGuerrero.
+2025-04-07 17:29:36 [main] DEBUG base.bins.vehiculoguerra.Destructor -
+				Entrando en el mÃ©todo embarcarGuerrero.
+2025-04-07 17:29:36 [main] DEBUG base.bins.vehiculoguerra.Destructor -
+				Entrando en el mÃ©todo embarcarGuerrero.
+2025-04-07 17:29:36 [main] DEBUG base.bins.vehiculoguerra.Destructor -
+				Entrando en el mÃ©todo embarcarGuerrero.
+2025-04-07 17:29:36 [main] DEBUG base.bins.vehiculoguerra.Destructor -
+				Entrando en el mÃ©todo embarcarGuerrero.
+2025-04-07 17:29:36 [main] DEBUG base.bins.vehiculoguerra.Destructor -
+				Entrando en el mÃ©todo embarcarGuerrero.
+2025-04-07 17:29:36 [main] DEBUG base.bins.vehiculoguerra.Destructor -
+				Entrando en el mÃ©todo embarcarGuerrero.
+2025-04-07 17:29:36 [main] DEBUG base.utilities.Utilities -
+				TamaÃ±o del listado de Guerreros de vehiculo1: 10
+2025-04-07 17:29:36 [main] DEBUG base.utilities.Utilities -
+				TamaÃ±o del listado de Guerreros de vehiculo2: 10
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+				Empieza la guerra:
+
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 1 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 2 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 3 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 4 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 5 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 6 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 7 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 8 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 9 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 10 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 11 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 12 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 13 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 14 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 15 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 16 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 17 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 18 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 19 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 20 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 21 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 22 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 23 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 24 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 25 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 26 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 27 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 28 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 29 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 30 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 31 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 32 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 33 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 34 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 35 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 36 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 37 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 38 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 39 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 40 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 41 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 42 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 43 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 44 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 45 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 46 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 47 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 48 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 49 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 50 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 51 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 52 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 53 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 54 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 55 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 56 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 57 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 58 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 59 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 60 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 61 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 62 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 63 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 64 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 65 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 66 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 67 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 68 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 69 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 70 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 71 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 72 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 73 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 74 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 75 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 76 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 77 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 78 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 79 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 80 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 81 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 82 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 83 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 84 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 85 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 86 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 87 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 88 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 89 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 90 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 91 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 92 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 93 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 94 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 95 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 96 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 97 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 98 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 99 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 100 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 101 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 102 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 103 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 104 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 105 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 106 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 107 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 108 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 109 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 110 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 111 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 112 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 113 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 114 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 115 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 116 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 117 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 118 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 119 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 120 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 121 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 122 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 123 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 124 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 125 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 126 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 127 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 128 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 129 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 130 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 131 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 132 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 133 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 134 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 135 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 136 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 137 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 138 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 139 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 140 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 141 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 142 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 143 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 144 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 145 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 146 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 147 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 148 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 149 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 150 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 151 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 152 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 153 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 154 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 155 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 156 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 157 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 158 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 159 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 160 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 161 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 162 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 163 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 164 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 165 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 166 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 167 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 168 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 169 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 170 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 171 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 172 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 173 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 174 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 175 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 176 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 177 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 178 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 179 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 180 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 181 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 182 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 183 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 184 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 185 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 186 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 187 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 188 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 189 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 190 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 191 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 192 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 193 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 194 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 195 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 196 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 197 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 198 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 199 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 200 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 201 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 202 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 203 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 204 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 205 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 206 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 207 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 208 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 209 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 210 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 211 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 212 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 213 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 214 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 215 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 216 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 217 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 218 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 219 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 220 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 221 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 222 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 223 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 224 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 225 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 226 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 227 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 228 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 229 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 230 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+					Empieza el turno 231 del enfrentamiento:
+2025-04-07 17:29:36 [main] INFO  base.utilities.Utilities -
+				
+			El vehÃ­culo Tiger ha sido destruido.
+
