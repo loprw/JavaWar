@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import interfaces.Tripulable;
-import interfaces.Validable;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -16,7 +15,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "TB_VEHICULO_GUERRA")
-public abstract class VehiculoGuerra implements Tripulable, Validable {
+public abstract class VehiculoGuerra implements Tripulable {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

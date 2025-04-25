@@ -1,6 +1,5 @@
 package entities;
 
-import interfaces.Validable;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -11,7 +10,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "TB_GUERRERO")
-public abstract class Guerrero implements Validable {
+public abstract class Guerrero {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

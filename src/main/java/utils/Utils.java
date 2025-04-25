@@ -8,6 +8,9 @@ import org.hibernate.cfg.Configuration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import entities.Guerrero;
+import entities.VehiculoGuerra;
+
 public class Utils {
 	
 	private static Session session;
@@ -59,6 +62,72 @@ public class Utils {
 	
 	public static void menu(String text) {
 		
+	}
+	
+	public static boolean validarAtaque(int atributoOfensivo, VehiculoGuerra vehiculo) {		
+		logger.debug("Validando que el valor de Ataque esté entre 0 y 10.");
+		if (atributoOfensivo < 0 || atributoOfensivo > 10) {
+			logger.info("Valor de Ataque incorrecto, se inicializa en 5.");
+			vehiculo.setAtaque(5);
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public static boolean validarDefensa(int atributoDefensivo, VehiculoGuerra vehiculo) { 
+		logger.debug("Validando que el valor de Defensa esté entre 0 y 10.");
+		if (atributoDefensivo < 0 || atributoDefensivo > 10) {
+			logger.info("Valor de Defensa incorrecto, se inicializa en 5.");
+			vehiculo.setDefensa(5);
+			return false;
+		}
+		return true;
+	}
+	
+	public static boolean validarAtributosVehiculos(int atributoOfensivo, int atributoDefensivo, VehiculoGuerra vehiculo) {
+		logger.debug("Validando que los valores de Ataque y Defensa no sumen más de 10.");
+		if ((atributoOfensivo + atributoDefensivo) > 10) {
+			logger.info("Suma de valores de Ataque más Defensa incorrecta. Se inicializan en 5.");
+			vehiculo.setAtaque(5);
+			vehiculo.setDefensa(5);
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public static boolean validarFuerza(int atributoOfensivo, Guerrero guerrero) {		
+		logger.debug("Validando que el valor de Ataque esté entre 0 y 10.");
+		if (atributoOfensivo < 0 || atributoOfensivo > 10) {
+			logger.info("Valor de Ataque incorrecto, se inicializa en 5.");
+			guerrero.setFuerza(5);
+			return false;
+		}
+		
+		return true;
+	}
+	
+	public static boolean validarResistencia(int atributoDefensivo, Guerrero guerrero) { 
+		logger.debug("Validando que el valor de Defensa esté entre 0 y 10.");
+		if (atributoDefensivo < 0 || atributoDefensivo > 10) {
+			logger.info("Valor de Defensa incorrecto, se inicializa en 5.");
+			guerrero.setResistencia(5);
+			return false;
+		}
+		return true;
+	}
+	
+	public static boolean validarAtributosGuerrero(int atributoOfensivo, int atributoDefensivo, Guerrero guerrero) {
+		logger.debug("Validando que los valores de Ataque y Defensa no sumen más de 10.");
+		if ((atributoOfensivo + atributoDefensivo) > 10) {
+			logger.info("Suma de valores de Ataque más Defensa incorrecta. Se inicializan en 5.");
+			guerrero.setFuerza(5);
+			guerrero.setResistencia(5);
+			return false;
+		}
+		
+		return true;
 	}
 	
 	public static void endSession() {

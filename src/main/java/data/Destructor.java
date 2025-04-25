@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 
 import entities.Guerrero;
 import entities.VehiculoGuerra;
+import utils.Utils;
 
 public class Destructor extends VehiculoGuerra {
 	
@@ -13,9 +14,9 @@ public class Destructor extends VehiculoGuerra {
 	public Destructor(String nombre, int ataque, int defensa) {
 		super(nombre, ataque, defensa);
 		this.setTipo("Destructor");
-		validarAtibutoOfensivo(ataque);
-		validarAtributoDefensivo(defensa);
-		validarAtributos(ataque, defensa);
+		Utils.validarAtaque(ataque, this);
+		Utils.validarDefensa(defensa, this);
+		Utils.validarAtributosVehiculos(ataque, defensa, this);
 	}
 
 	public Destructor(String nombre) {
@@ -44,53 +45,18 @@ public class Destructor extends VehiculoGuerra {
 	
 	@Override
 	public void setAtaque(int ataque) {
-		if (validarAtibutoOfensivo(ataque) && validarAtributos(ataque, getDefensa())) {
+		if (Utils.validarAtaque(ataque, this) && Utils.validarAtributosVehiculos(ataque, this.getDefensa(), this)) {
 			super.setAtaque(ataque);
 		}
 	}
 
 	@Override
 	public void setDefensa(int defensa) {
-		if (validarAtributoDefensivo(defensa) && validarAtributos(getAtaque(), defensa)) {
+		if (Utils.validarDefensa(defensa, this) && Utils.validarAtributosVehiculos(this.getAtaque(), defensa, this)) {
 			super.setDefensa(defensa);
 		}
 	}
 
-	@Override
-	public boolean validarAtibutoOfensivo(int atributoOfensivo) {		
-		logger.debug("Validando que el valor de Ataque esté entre 0 y 10.");
-		if (atributoOfensivo < 0 || atributoOfensivo > 10) {
-			logger.info("Valor de Ataque incorrecto, se inicializa en 5.");
-			setAtaque(5);
-			return false;
-		}
-		
-		return true;
-	}
-
-	@Override
-	public boolean validarAtributoDefensivo(int atributoDefensivo) { 
-		logger.debug("Validando que el valor de Defensa esté entre 0 y 10.");
-		if (atributoDefensivo < 0 || atributoDefensivo > 10) {
-			logger.info("Valor de Defensa incorrecto, se inicializa en 5.");
-			setDefensa(5);
-			return false;
-		}
-		return true;
-	}
-
-	@Override
-	public boolean validarAtributos(int atributoOfensivo, int atributoDefensivo) {
-		logger.debug("Validando que los valores de Ataque y Defensa no sumen más de 10.");
-		if ((atributoOfensivo + atributoDefensivo) > 10) {
-			logger.info("Suma de valores de Ataque más Defensa incorrecta. Se inicializan en 5.");
-			setAtaque(5);
-			setDefensa(5);
-			return false;
-		}
-		
-		return true;
-	}
 
 	@Override
 	public void embarcarGuerrero(Guerrero guerrero) {
