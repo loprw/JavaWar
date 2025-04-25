@@ -26,7 +26,7 @@ public abstract class VehiculoGuerra implements Tripulable {
 			throws AtaqueValidationException, DefensaValidationException, SumaAtributosValidationException {
 
 		this.nombre = nombre;
-		this.puntosVida = 1000;
+		this.puntosVida = 1_000;
 		this.ataque = 5;
 		validarAtaque(ataque);
 		this.defensa = 5;
@@ -38,7 +38,7 @@ public abstract class VehiculoGuerra implements Tripulable {
 	
 	public VehiculoGuerra(String nombre) {
 		this.nombre = nombre;
-		this.puntosVida = 10;
+		this.puntosVida = 1_000;
 		this.ataque = 5;
 		this.defensa = 5;
 		this.guerrerosEmbarcados = new ArrayList<Guerrero>();
