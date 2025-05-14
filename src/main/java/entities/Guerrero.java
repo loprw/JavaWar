@@ -27,14 +27,14 @@ public abstract class Guerrero {
 		
 	}
 	
-	public Guerrero(String nombre, int fuerza, int resistencia) {
+	protected Guerrero(String nombre, int fuerza, int resistencia) {
 
 		this.nombre = nombre;
 		this.fuerza = fuerza;
 		this.resistencia = resistencia;
 	}
 
-	public Guerrero(String nombre) {
+	protected Guerrero(String nombre) {
 		this.nombre = nombre;
 		this.fuerza = 5;
 		this.resistencia = 5;
@@ -42,10 +42,6 @@ public abstract class Guerrero {
 
 	public Long getId() {
 		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
 	}
 
 	public String getNombre() {

@@ -32,7 +32,7 @@ public abstract class VehiculoGuerra implements Tripulable {
 		
 	}
 	
-	public VehiculoGuerra(String nombre, int ataque, int defensa) {
+	protected VehiculoGuerra(String nombre, int ataque, int defensa) {
 
 		this.nombre = nombre;
 		this.puntosVida = 1_000;
@@ -41,7 +41,7 @@ public abstract class VehiculoGuerra implements Tripulable {
 
 	}
 	
-	public VehiculoGuerra(String nombre) {
+	protected VehiculoGuerra(String nombre) {
 		this.nombre = nombre;
 		this.puntosVida = 1_000;
 		this.ataque = 5;
@@ -64,7 +64,7 @@ public abstract class VehiculoGuerra implements Tripulable {
 		return puntosVida;
 	}
 	
-	protected void setPuntosVida(int puntosVida) {
+	public void setPuntosVida(int puntosVida) {
 		this.puntosVida = puntosVida;
 	}
 

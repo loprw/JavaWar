@@ -57,21 +57,30 @@ public class Tanque extends VehiculoGuerra{
 
 	@Override
 	public void embarcarGuerrero(Guerrero guerrero) {
-		logger.debug("Entrando en el método embarcarGuerrero.");
-		getGuerrerosEmbarcados().add(guerrero);
+		logger.debug("Entrando en el método embarcarGuerrero de Tanque.");
+		if (guerrero instanceof TripulacionTanque && getGuerrerosEmbarcados().size() < 10) {
+			getGuerrerosEmbarcados().add(guerrero);
+		} else if (!(guerrero instanceof TripulacionTanque) && getGuerrerosEmbarcados().size() >= 10){
+			String text = "El guerrero " + guerrero.getNombre() + " no cabe en el Tanque "
+					+ "ni es tripulante capaz para el mismo.";
+			logger.info(text);
+		} else if (getGuerrerosEmbarcados().size() >= 10) {
+			String text = "El guerrero " + guerrero.getNombre() + " no cabe en el Tanque.";
+			logger.info(text);
+		} else if (!(guerrero instanceof TripulacionTanque)) {
+			String text = "El guerrero " + guerrero.getNombre() + " no es un tripulante capaz para el Tanque.";
+			logger.info(text);
+		} else {
+			logger.debug("Opción no contemplada en método embarcarGuerrero() de Tanque.");
+		}
 	}
+	
 
 	@Override
 	public void embarcarGuerreros(Guerrero[] guerreros) {
 		logger.debug("Entrando en el método embarcarGuerreros.");
 		for (Guerrero guerrero : guerreros) {
-			if (guerrero instanceof TripulacionTanque) { 
-					Guerrero nuevoGuerrero = (Guerrero) guerrero;
-					getGuerrerosEmbarcados().add(nuevoGuerrero);
-			} else {
-				String text = "El guerrero " + guerrero.getNombre() + " no es un tripulante capaz para el Tanque.";
-				logger.info(text);
-			}
+			embarcarGuerrero(guerrero);
 		}
 	}
 
