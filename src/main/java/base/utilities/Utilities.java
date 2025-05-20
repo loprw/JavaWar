@@ -131,7 +131,8 @@ public class Utilities {
 			System.out.println("\t\t¡¡¡BIENVENIDO A JAVA WAR!!!");
 			System.out.println(
 					"\nEscoge entre estas opciones.\n\n\t1. Partida rápida.\n\t2. Partida rápida con guerreros."
-							+ "\n\t3. Enfrentamiento con el campeón de los desarrolladores.\n\n\t0 Salir.\n\n");
+							+ "\n\t3. Enfrentamiento con el campeón de los desarrolladores." + ""
+									+ "\n\t4. Partida con Vehiculo y Guerreros personalizados\n\n\t0 Salir.\n\n");
 			opcion = Utilities.pideDatoNumerico("Indica el número de la opción que desees:");
 
 			switch (opcion) {
@@ -205,6 +206,9 @@ public class Utilities {
 				}
 
 			}
+			case 4 -> {
+				
+			}
 			case 0 -> System.out.println("¡Adiós!");
 			default -> System.out.println("Has indicado una opción incorrecta.");
 			}
@@ -271,7 +275,7 @@ public class Utilities {
 		Tanque tanque;
 		if (vehiculo instanceof Destructor) {
 			destructor = (Destructor) vehiculo;
-			int valor = 0;
+			int valor = 1;
 			int contador = 1;
 			do {
 				int numAleatorio = ((int) (Math.random() * 2));
