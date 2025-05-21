@@ -1,5 +1,7 @@
 package data;
 
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,6 +15,14 @@ public class Tanque extends VehiculoGuerra{
 
 	public Tanque(String nombre, int ataque, int defensa) {
 		super(nombre, ataque, defensa);
+		this.setTipo("Tanque");
+		Utils.validarAtaque(ataque, this);
+		Utils.validarDefensa(defensa, this);
+		Utils.validarAtributosVehiculos(ataque, defensa, this);
+	}
+	
+	public Tanque(String nombre, int vida, int ataque, int defensa, List<Guerrero> listado) {
+		super(nombre, vida, ataque, defensa, listado);
 		this.setTipo("Tanque");
 		Utils.validarAtaque(ataque, this);
 		Utils.validarDefensa(defensa, this);

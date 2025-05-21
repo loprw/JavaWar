@@ -41,6 +41,16 @@ public abstract class VehiculoGuerra implements Tripulable {
 
 	}
 	
+	protected VehiculoGuerra(String nombre, int vida, int ataque, int defensa, List<Guerrero> listado) {
+
+		this.nombre = nombre;
+		this.puntosVida = vida;
+		this.ataque = ataque;
+		this.defensa = defensa;
+		this.guerrerosEmbarcados = listado;
+
+	}
+	
 	protected VehiculoGuerra(String nombre) {
 		this.nombre = nombre;
 		this.puntosVida = 1_000;

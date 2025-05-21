@@ -1,5 +1,7 @@
 package data;
 
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,6 +24,14 @@ public class Destructor extends VehiculoGuerra {
 	public Destructor(String nombre) {
 		super(nombre);
 		this.setTipo("Destructor");
+	}
+	
+	public Destructor(String nombre, int vida, int ataque, int defensa, List<Guerrero> listado) {
+		super(nombre, vida, ataque, defensa, listado);
+		this.setTipo("Destructor");
+		Utils.validarAtaque(ataque, this);
+		Utils.validarDefensa(defensa, this);
+		Utils.validarAtributosVehiculos(ataque, defensa, this);
 	}
 
 	@Override
