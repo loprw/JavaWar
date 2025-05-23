@@ -1,5 +1,8 @@
 package service;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import dao.GuerreroDAOImpl;
 import dao.VehiculoGuerraDAOImpl;
 import data.ArtilleroNaval;
@@ -16,7 +19,8 @@ import interfaces.GuerreroDAO;
 import interfaces.VehiculoGuerraDAO;
 
 public class Service {
-
+	
+	private static final Logger logger = LoggerFactory.getLogger(Service.class);
 	private VehiculoGuerraDAO vhdao = new VehiculoGuerraDAOImpl();
 	private GuerreroDAO gdao = new GuerreroDAOImpl();
 	private GuerreroDTO guerrDto;
@@ -73,5 +77,51 @@ public class Service {
 	void insertVehiculo(VehiculoGuerraDTO dto) {
 		
 		vhdao.insertVehiculoGuerra(convertVehiculoGuerraDtoToEntity(dto));
+	}
+	
+	public void enfrentamiento(VehiculoGuerraDTO vehiculo1, VehiculoGuerraDTO vehiculo2) {
+		VehiculoGuerra vh1 = convertVehiculoGuerraDtoToEntity(vehiculo1);
+		VehiculoGuerra vh2 = convertVehiculoGuerraDtoToEntity(vehiculo2);
+		boolean vehiculoUnoDestruido = false;
+		boolean vehiculoDosDestruido = false;
+		int contador = 1;
+
+		logger.info("Empieza la guerra:\n");
+
+		while (!vehiculoUnoDestruido || !vehiculoDosDestruido) {
+
+			logger.info("\tEmpieza el turno " + contador++ + " del enfrentamiento:");
+
+			int ataque = vh1.atacar();
+			int defensa = vh2.defender(ataque);
+			vh2.recibirDany(ataque, defensa);
+
+			if (vh2.getPuntosVida() <= 0) {
+				vehiculoDosDestruido = true;
+			}
+
+			if (vehiculoDosDestruido) {
+				logger.info("\n\t\t\tEl vehículo " + vh2.getNombre() + " ha sido destruido.\n");
+				break;
+			}
+
+			int ataque2 = vh2.atacar();
+			int defensa2 = vh1.defender(ataque2);
+			vh1.recibirDany(ataque2, defensa2);
+
+			if (vh1.getPuntosVida() <= 0) {
+				vehiculoUnoDestruido = true;
+			}
+
+			if (vehiculoUnoDestruido) {
+				logger.info("\n\t\t\tEl vehículo " + vh1.getNombre() + " ha sido destruido.\n");
+				break;
+			}
+		}
+	}
+	
+	//Queremos hacerlo aquí? Hay que hacer un método para grabarlo en base de datos, pero hay que pensar donde y como
+	void embarqueGuerrero() {
+		
 	}
 }
